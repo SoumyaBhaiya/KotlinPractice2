@@ -30,3 +30,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore build outputs
+/build/
+/out/
+/.gradle/
