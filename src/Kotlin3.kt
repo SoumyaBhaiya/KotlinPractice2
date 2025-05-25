@@ -20,5 +20,12 @@ fun main(){
     val user = User("Alexaa", "Po", 20)
     val user2 = User("Booh", "Byee", 19)
     println("Name for user1: ${user.name}, Name for user2: ${user2.name}")
+
+
+    val person = Person("hi")
+    val person2 = Person("boo", "ty")
+
+    println("${person.name}, ${person.lastName}, ${person.age}")
+    println("${person2.name}, ${person2.lastName}, ${person2.age}")
 }
 //moving all the classes to Kotlin4
