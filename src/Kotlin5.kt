@@ -15,3 +15,24 @@ Setter: What to do when someone says "Change the value."
 
  */
 
+// Example
+
+class Backpack {
+    var toy: String = "Teddy Bear"
+        get() = field
+        set(value){
+            if(field != "Cute"){
+                println("Gotchaa Baby!")
+            }
+            field = value
+        }
+
+}
+
+fun main(){
+    val viewToy = Backpack()
+
+
+    viewToy.toy = "Casdf"
+    println(viewToy.toy)
+}
