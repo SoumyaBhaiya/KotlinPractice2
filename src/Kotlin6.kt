@@ -21,3 +21,26 @@ class Database private constructor(){ //NO ONE CAN USE DATABASE() FROM OUTSIDE
     }
 
 }
+
+//THIS WAS THE LONG WAY TO CREATE A SINGLETON: WHICH IS CREATING AND ACCESSING ONLY ONE INSTANCE THROUGHOUT
+
+
+//ANOTHER WAY TO CREATE IS BY USING OBJECT
+
+
+
+/*
+
+fun main(){
+    println(Database)
+    println(Database) // we will only get 'Database Created' ONLY ONCE
+
+}
+
+object Database {
+    init{
+        println("database created")
+        }
+}
+//THIS IS GONNA CRATE A SINGLETON
+ */
