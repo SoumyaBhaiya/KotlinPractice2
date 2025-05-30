@@ -31,13 +31,13 @@ abstract class Vehiclee{
     abstract fun stop()
 }
 
-class Caar(var name: String, var color: String, val engines: Int, val doors: Int):Vehiclee{
+class Caar(var name: String, var color: String, val engines: Int, val doors: Int): Vehiclee(){
     override fun move() {
-        TODO("Not yet implemented")
+        println(".. sa")
     }
 
     override fun stop() {
-        TODO("Not yet implemented")
+        println(".. as")
     }
 }
 
